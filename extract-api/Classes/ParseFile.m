@@ -53,7 +53,10 @@
 
             NSString *cleanedLine = [parmName cleanLine];
             NSMutableArray *array = [dict objectForKey:apiName];
-            [array addObject: cleanedLine];
+            if ([array containsObject: cleanedLine] == NO)
+            {
+                [array addObject: cleanedLine];
+            }
         }
     }
 

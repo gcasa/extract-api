@@ -10,6 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Transform : NSObject
+{
+    NSDictionary *dictionary;
+}
 
 - (instancetype) initWithDictionary: (NSDictionary *)dict;
 - (NSString *) transformToMarkdown;

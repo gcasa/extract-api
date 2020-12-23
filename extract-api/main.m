@@ -38,8 +38,7 @@ int main(int argc, const char * argv[])
         
         Transform *t = [[Transform alloc] initWithDictionary: d];
         NSString *output = [t transformToMarkdown];
-        NSLog(@"d = %@", d);
-        NSLog(@"%@",output);
+        puts([[NSString stringWithFormat: @"%@",output] cStringUsingEncoding:NSUTF8StringEncoding]);
     }
 
     return 0;

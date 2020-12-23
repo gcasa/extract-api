@@ -11,6 +11,7 @@
 		144AAD952593254300C145D5 /* ParseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD942593254300C145D5 /* ParseFile.m */; };
 		144AAD9A259327A800C145D5 /* NSString+Replacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD99259327A800C145D5 /* NSString+Replacing.m */; };
 		144AAD9F25932F7C00C145D5 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD9E25932F7C00C145D5 /* Transform.m */; };
+		144AADA32593376D00C145D5 /* NSArray+StringFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AADA22593376D00C145D5 /* NSArray+StringFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		144AAD99259327A800C145D5 /* NSString+Replacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Replacing.m"; sourceTree = "<group>"; };
 		144AAD9D25932F7C00C145D5 /* Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
 		144AAD9E25932F7C00C145D5 /* Transform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
+		144AADA12593376D00C145D5 /* NSArray+StringFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+StringFunctions.h"; sourceTree = "<group>"; };
+		144AADA22593376D00C145D5 /* NSArray+StringFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+StringFunctions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 			children = (
 				144AAD98259327A800C145D5 /* NSString+Replacing.h */,
 				144AAD99259327A800C145D5 /* NSString+Replacing.m */,
+				144AADA12593376D00C145D5 /* NSArray+StringFunctions.h */,
+				144AADA22593376D00C145D5 /* NSArray+StringFunctions.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144AADA32593376D00C145D5 /* NSArray+StringFunctions.m in Sources */,
 				144AAD8B259320A200C145D5 /* main.m in Sources */,
 				144AAD9A259327A800C145D5 /* NSString+Replacing.m in Sources */,
 				144AAD9F25932F7C00C145D5 /* Transform.m in Sources */,
