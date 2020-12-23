@@ -9,4 +9,14 @@
 
 @implementation Transform
 
+- (instancetype) initWithDictionary: (NSDictionary *)dict
+{
+    return nil;
+}
+
+- (NSString *) transformToMarkdown
+{
+    return nil;
+}
+
 @end
