@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		144AAD8B259320A200C145D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD8A259320A200C145D5 /* main.m */; };
+		144AAD952593254300C145D5 /* ParseFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD942593254300C145D5 /* ParseFile.m */; };
+		144AAD9A259327A800C145D5 /* NSString+Replacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD99259327A800C145D5 /* NSString+Replacing.m */; };
+		144AAD9F25932F7C00C145D5 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 144AAD9E25932F7C00C145D5 /* Transform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		144AAD87259320A200C145D5 /* extract-api */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "extract-api"; sourceTree = BUILT_PRODUCTS_DIR; };
 		144AAD8A259320A200C145D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		144AAD932593254300C145D5 /* ParseFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseFile.h; sourceTree = "<group>"; };
+		144AAD942593254300C145D5 /* ParseFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParseFile.m; sourceTree = "<group>"; };
+		144AAD98259327A800C145D5 /* NSString+Replacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Replacing.h"; sourceTree = "<group>"; };
+		144AAD99259327A800C145D5 /* NSString+Replacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Replacing.m"; sourceTree = "<group>"; };
+		144AAD9D25932F7C00C145D5 /* Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		144AAD9E25932F7C00C145D5 /* Transform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,31 @@
 		144AAD89259320A200C145D5 /* extract-api */ = {
 			isa = PBXGroup;
 			children = (
+				144AAD972593278200C145D5 /* Category */,
+				144AAD922593252D00C145D5 /* Classes */,
 				144AAD8A259320A200C145D5 /* main.m */,
 			);
 			path = "extract-api";
+			sourceTree = "<group>";
+		};
+		144AAD922593252D00C145D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				144AAD932593254300C145D5 /* ParseFile.h */,
+				144AAD942593254300C145D5 /* ParseFile.m */,
+				144AAD9D25932F7C00C145D5 /* Transform.h */,
+				144AAD9E25932F7C00C145D5 /* Transform.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		144AAD972593278200C145D5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				144AAD98259327A800C145D5 /* NSString+Replacing.h */,
+				144AAD99259327A800C145D5 /* NSString+Replacing.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				144AAD8B259320A200C145D5 /* main.m in Sources */,
+				144AAD9A259327A800C145D5 /* NSString+Replacing.m in Sources */,
+				144AAD9F25932F7C00C145D5 /* Transform.m in Sources */,
+				144AAD952593254300C145D5 /* ParseFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
